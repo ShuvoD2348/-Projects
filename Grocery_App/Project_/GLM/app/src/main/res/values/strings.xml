@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Grocery List Manager</string>
+
+    <string name="title_activity_add_item">AddItem</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="add_list">Add List!</string>
+    <string name="new_list_name">New list name</string>
+
+    <string-array name="types">
+        <item>Fruit</item>
+        <item>Vegetable</item>
+        <item>Meat</item>
+        <item>Cereal</item>
+        <item>Drink</item>
+        <item>Frozen Food</item>
+        <item>Snack</item>
+        <item>Canned Food</item>
+    </string-array>
+
+    <string-array name="quantity_types">
+        <item>lbs</item>
+        <item>bunches</item>
+        <item>bags</item>
+        <item>bottles</item>
+        <item>boxes</item>
+        <item>cans</item>
+        <item>packs</item>
+        <item>(None)</item>
+    </string-array>
+
+</resources>

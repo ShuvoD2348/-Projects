@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItemActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlEditQuantityBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="82dp"
+        android:background="@drawable/item_border"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_itemname"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:ems="10"
+            android:hint="Item name"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/confirmsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_itemname"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:text="Search" />
+
+        <ListView
+            android:id="@+id/searchList"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/confirmsearch"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/et_qtmt"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/searchList"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="0dp"
+            android:ems="10"
+            android:hint="Quantity"
+            android:inputType="numberSigned"
+             />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnCreateItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_below="@+id/rlEditQuantityBox"
+        android:text="Create Item"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btnAddItemToList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlEditQuantityBox"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="5dp"
+
+        android:text="Add Item" />
+
+
+</RelativeLayout>
